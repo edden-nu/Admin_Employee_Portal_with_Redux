@@ -57,13 +57,13 @@ Users can log in as **admin** or **employee**:
 
 ## API Endpoints
 - Auth
-POST /api/auth/login
+-- POST /api/auth/login
 - Users
-POST /api/users/create
-GET /api/users
+-- POST /api/users/create
+-- GET /api/users
 - Jobs
-POST /api/jobs/create
-GET /api/jobs
+-- POST /api/jobs/create
+-- GET /api/jobs
 
 ---
 
