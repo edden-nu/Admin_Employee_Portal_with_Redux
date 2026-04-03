@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Jobs
+url: ""
+method: GET
+order: 4488145328339365

@@ -1,0 +1,14 @@
+$kind: http-request
+name: Create User
+url: http://localhost:5001/api/users/create
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "fullName": "Admin Test",
+      "email": "admin@test.com",
+      "password": "123456",
+      "type": "admin"
+    }
+order: 1775253220605

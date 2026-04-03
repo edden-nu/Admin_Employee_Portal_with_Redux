@@ -1,0 +1,12 @@
+$kind: http-request
+name: Login
+url: Login
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "email": "admin@test.com",
+      "password": "123456"
+    }
+order: 4265387587094693

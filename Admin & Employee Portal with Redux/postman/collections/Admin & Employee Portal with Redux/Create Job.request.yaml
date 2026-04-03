@@ -1,0 +1,14 @@
+$kind: http-request
+name: Create Job
+url: http://localhost:5001/api/jobs/create
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "companyName": "Google",
+      "jobTitle": "Frontend Engineer",
+      "description": "React + Redux",
+      "salary": 120000
+    }
+order: 4403924557238389
